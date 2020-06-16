@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     RecyclerView recyclerView;
     static List<String> countries;
 
-    static List<Cat> totalCats;
+    List<Cat> totalCats;
     String filter;
     static String[] users = { "Filter by country"};
 
@@ -95,7 +95,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             catListAdapter.setmCats(filteredCatList);
             catListAdapter.notifyDataSetChanged();
         }
-
+        else{
+            clear(view);
+        }
     }
 
     private List<Cat> filterList(List<Cat> totalCats) {
@@ -114,6 +116,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if(!selected.equals(getResources().getString(R.string.filter))){
             spinner.setSelection(0);
             catListAdapter.setmCats(totalCats);
+            catListAdapter.notifyDataSetChanged();
+        }
+        else {
+            catListAdapter.setmCats(new ArrayList<Cat>(totalCats));
             catListAdapter.notifyDataSetChanged();
         }
     }
