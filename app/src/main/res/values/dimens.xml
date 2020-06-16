@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_length">20dp</dimen>
+    <dimen name="margin_vertical">10dp</dimen>
+    <dimen name="margin_login_button">75dp</dimen>
+    <dimen name="width_spinner">200dp</dimen>
+    <dimen name="left_margin_std">12dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="margin_std">16dp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CatsApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="missing_username">missing username</string>
+    <string name="missing_password">missing password</string>
+    <string name="forgot_password">Forgot your password ?</string>
+    <string name="logout">LOGOUT password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_dialog_logout">Are you sure you want to log out?</string>
+    <string name="message_dialog_logout">See you next time.</string>
+    <string name="filter">Filter by country</string>
+    <string name="clear">Clear</string>
+</resources>
